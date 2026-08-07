@@ -20,6 +20,24 @@ Yogify points the phone's camera at the user during a yoga session and:
 - **User accounts** — login/sign-up screens backed by Firebase.
 - **Workout history** — a dedicated workout screen and data model for tracking sessions over time.
 
+## Screenshots
+
+**App flow** — sign up, log in, choose a workout mode, and check your profile:
+
+| Sign Up | Login | Home | Profile |
+|---|---|---|---|
+| <img src="screenshots/signup.png" width="200"> | <img src="screenshots/login.png" width="200"> | <img src="screenshots/home.png" width="200"> | <img src="screenshots/profile.png" width="200"> |
+
+From Home, a workout can be started in one of two modes:
+
+**Auto Track Workout** — the app detects the pose being held and classifies it automatically (here, a T-pose recognized at 85.0% accuracy):
+
+<img src="screenshots/auto-track-workout.png" width="500">
+
+**Manually Choose Workout** — the user picks a specific pose (e.g. Plank) from the list, and the app scores form against that target pose (76.0% accuracy shown):
+
+<img src="screenshots/manual-workout.png" width="500">
+
 ## Tech Stack
 
 - **Platform:** Android (Java), minSdk 21, compileSdk 31
